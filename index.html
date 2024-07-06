@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Daftar Murid dan Sekolah di Indonesia</title>
+    <style>
+      /* CSS dimasukkan langsung ke dalam tag <style> */
+      body {
+        font-family: Arial, sans-serif;
+        background-color: #f4f4f4;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+      }
+
+      h1 {
+        text-align: center;
+        color: #333;
+        margin-top: 20px;
+      }
+
+      .container {
+        display: flex;
+        justify-content: space-around;
+        width: 80%;
+        margin-top: 20px;
+      }
+
+      ul {
+        list-style-type: none;
+        padding: 0;
+      }
+
+      li {
+        background-color: #fff;
+        margin: 5px 0;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+      }
+
+      h2 {
+        text-align: center;
+        color: #555;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Daftar Murid dan Sekolah di Indonesia</h1>
+    <div class="container">
+      <div>
+        <h2>Murid</h2>
+        <ul id="students-list"></ul>
+      </div>
+      <div>
+        <h2>Sekolah</h2>
+        <ul id="schools-list"></ul>
+      </div>
+    </div>
+    <h3>Data Tampil di Console.log</h3>
+    <script type="module" src="index.js"></script>
+  </body>
+</html>
